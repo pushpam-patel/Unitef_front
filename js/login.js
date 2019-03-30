@@ -1,5 +1,5 @@
-import { STATUS_CODES } from "http";
-import { endianness } from "os";
+// import { STATUS_CODES } from "http";
+// import { endianness } from "os";
 
 //GET all user for login verification 
 
@@ -229,6 +229,7 @@ document.querySelector('#drive_r_b') && document.querySelector('#drive_r_b').add
                 'Content-type':'application/json'
             }
         }).then((res)=>{
+            console.log(res)
             window.location.href="inner.html"
     })
 
